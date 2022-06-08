@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UiRoot 
+public class UIRoot 
 {
     static Transform transform;
     static Transform recyclePool;//回收的窗体
