@@ -45,7 +45,7 @@ public class StoreWindow : BaseWindow
             switch(button.name)
             {
                 case "BuyButton":
-                OnBuyButtonClick();
+                button.onClick.AddListener(OnBuyButtonClick);
                 break;
             }
         }

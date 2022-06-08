@@ -21,6 +21,7 @@ public class BaseWindow
     {
         //ture表示隐藏的物体也会查找
         buttonList = transfrom.GetComponentsInChildren<Button>(true);
+        RegisterUIEvent();
     }
     //UI事件的注册
     protected virtual void RegisterUIEvent()

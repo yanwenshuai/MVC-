@@ -38,7 +38,7 @@ public class WindowManager : MonoSingleton<WindowManager>
         BaseWindow window;
         if(windowDic.TryGetValue(type,out window))
         {
-            window.Open();
+            window.Close();
         }
         else
         {
