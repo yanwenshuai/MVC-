@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Game.View;
 using UnityEngine;
 
 public class WindowManager : MonoSingleton<WindowManager>

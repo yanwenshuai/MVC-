@@ -1,8 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Game.Ctrl;
+using Game.View;
 using UnityEngine;
 
+//这里只能引用CTRL 不能引用Model
 public class StoreWindow : BaseWindow
 {
     public StoreWindow()
@@ -63,6 +66,8 @@ public class StoreWindow : BaseWindow
        private void OnBuyButtonClick()
     {
         Debug.Log("BuyButton 点击了");
+        // StoreCtrl.Instance.SaveProp(new Prop());
+        // var prop= StoreCtrl.Instance.GetProp(1001);
     }
 
 }
